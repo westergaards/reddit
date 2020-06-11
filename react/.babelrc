@@ -1,0 +1,12 @@
+{
+  "presets": ["react-app"],
+  "plugins": ["@babel/proposal-class-properties"],
+  "env": {
+    "development": {
+      "plugins": ["@babel/plugin-transform-modules-commonjs"]
+    },
+    "test": {
+      "plugins": ["@babel/plugin-transform-modules-commonjs"]
+    }
+  }
+}
